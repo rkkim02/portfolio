@@ -1,0 +1,37 @@
+
+html,
+body,
+.view {
+    height: 100%;
+}
+
+.view {
+    background: url("https://i.ytimg.com/vi/s8SrerotCV8/maxresdefault.jpg")no-repeat center center fixed;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: cover;
+}
+
+.h1-responsive, .section .section-heading {
+    color: black;
+    font-size: 320%;
+    font-weight: 500;
+}
+
+/* Navigation*/
+
+.navbar {
+    background-color: transparent;
+}
+
+
+.top-nav-collapse {
+    background-color: #1C2331;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #1C2331;
+    }
+}

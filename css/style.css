@@ -7,10 +7,22 @@ body,
 
 .view {
     background: url("https://i.ytimg.com/vi/s8SrerotCV8/maxresdefault.jpg")no-repeat center center fixed;
-    -webkit-background-size: auto;
-    -moz-background-size: auto;
-    -o-background-size: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
+}
+
+.view2{
+    background: url("../img/wallpapers.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 20px;
+    color: white;
+    padding-bottom: 20px;
+    min-height: 100%;
 }
 
 .h1-responsive, .section .section-heading {
@@ -39,7 +51,27 @@ body,
 .btn-social {
     padding-right: 10px;
 }
+ 
+.border1 {
+    margin-top:150px;
+    font-weight: bold;
+}
 
-#section2 {
-    color: darkblue;
+.page-footer {
+    margin-top: 0 !important;
+}
+
+.skills-container {
+    margin-bottom: 40px;
+}
+
+.portfolio-img {
+    height: 75%;
+    width: 75%;
+    margin: 0 auto 30px auto;
+    display: block;
+}
+
+footer {
+    font-size: 20px;
 }
